@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  color: black;
+}
+.button-green {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  background: #5cb85f;
+  padding: 8px 12px 8px 12px;
+  color: white;
+  max-width: fit-content;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.item {
+  background-color: #f1f3ff;
+  border-radius: 8px;
+  height: 250px;
+  max-width: 1000px;
+}
+
+.review {
+  width: 415px;
+  height: auto;
+}
+
+.author-img {
+  max-width: 80px;
+  height: 80px;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+
+.rate-img {
+  height: 16px;
+  max-width: 80px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.text-review {
+  font-size: 14px;
+  text-align: left;
+  width: 264px;
+  height: 148px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+.review .author {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#sewamobil {
+  margin-top: 80px;
+}
+
+.sewamobil {
+  background-color: #0d28a6;
+  height: auto;
+  border-radius: 13px;
+  text-align: center;
+  padding: 70px;
+  color: #fff;
+}
+
+.sewamobil h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.sewamobil p {
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
